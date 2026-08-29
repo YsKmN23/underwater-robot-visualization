@@ -1,0 +1,40 @@
+# Default to text detection, then override byte-sensitive records.
+* text=auto
+
+# Source code and Unity YAML are LF in the audited worktree.
+*.cs text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.shader text eol=lf
+*.hlsl text eol=lf
+*.compute text eol=lf
+*.cginc text eol=lf
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.rsp text eol=lf
+*.unity text eol=lf merge=unityyamlmerge
+*.prefab text eol=lf merge=unityyamlmerge
+*.asset text eol=lf merge=unityyamlmerge
+*.mat text eol=lf
+*.meta text eol=lf
+
+# Preserve current bytes for hashed reports and project records.
+*.json -text
+*.csv -text
+*.md -text
+*.txt -text
+/UnityProject/UnderwaterRobotScene_v1/Packages/*.json text eol=lf
+/UnityProject/UnderwaterRobotScene_v1/ProjectSettings/ProjectVersion.txt text eol=lf
+
+# Binary documents and images.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.doc binary
+*.docx binary
+*.pdf binary
+*.dll binary
+
+# Audited iterative 3D binaries use Git LFS.
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text

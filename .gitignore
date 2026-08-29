@@ -1,0 +1,76 @@
+# Workspace-local runtime output
+/_work/
+/Logs/
+/ReviewEvidence/
+/_codex_pdf_tmp/
+/.agents/
+
+# Frozen baselines remain under dedicated hash validation, outside Git
+/model_assets/Baselines/
+
+# Explicit temporary/model staging
+/model_assets/**/_round2_staging/
+
+# Reproducible Blender review renders; source .blend and scripts remain tracked
+/model_assets/AUV/*.png
+/model_assets/ROV/*.png
+/model_assets/USV/*.png
+
+# Pending ownership/scope decision; do not stage implicitly
+
+# Stale Unity probe project and misplaced root logs
+/UnityProject/UnderwaterRobotScene/
+/Underwater
+*.log
+
+# Unity-generated and machine-local state
+/UnityProject/UnderwaterRobotScene_v1/Library/
+/UnityProject/UnderwaterRobotScene_v1/Temp/
+/UnityProject/UnderwaterRobotScene_v1/Obj/
+/UnityProject/UnderwaterRobotScene_v1/obj/
+/UnityProject/UnderwaterRobotScene_v1/Logs/
+/UnityProject/UnderwaterRobotScene_v1/UserSettings/
+/UnityProject/UnderwaterRobotScene_v1/MemoryCaptures/
+/UnityProject/UnderwaterRobotScene_v1/Recordings/
+/UnityProject/UnderwaterRobotScene_v1/Build/
+/UnityProject/UnderwaterRobotScene_v1/Builds/
+
+# IDE-generated files
+/UnityProject/UnderwaterRobotScene_v1/.vs/
+/UnityProject/UnderwaterRobotScene_v1/.idea/
+/UnityProject/UnderwaterRobotScene_v1/.vscode/
+/UnityProject/UnderwaterRobotScene_v1/*.csproj
+/UnityProject/UnderwaterRobotScene_v1/*.sln
+/UnityProject/UnderwaterRobotScene_v1/*.slnx
+/UnityProject/UnderwaterRobotScene_v1/*.user
+/UnityProject/UnderwaterRobotScene_v1/*.suo
+/UnityProject/UnderwaterRobotScene_v1/*.pidb
+/UnityProject/UnderwaterRobotScene_v1/*.booproj
+/UnityProject/UnderwaterRobotScene_v1/*.csproj.user
+/UnityProject/UnderwaterRobotScene_v1/*.unityproj
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Blender auto-backups
+*.blend1
+*.blend2
+*.blend@
+*.blend~
+
+# OS/editor temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~$*

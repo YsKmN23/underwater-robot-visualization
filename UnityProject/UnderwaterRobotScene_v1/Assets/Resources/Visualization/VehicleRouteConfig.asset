@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2a632d589119f4188afde9a9dfcdba, type: 3}
+  m_Name: VehicleRouteConfig
+  m_EditorClassIdentifier: Assembly-CSharp::UnderwaterRobotScene.Visualization.Runtime.VehicleRouteConfig
+  actualSampleDistance: 0.35
+  maxActualPointsPerVehicle: 500
+  teleportBreakDistance: 10
+  actualLineWidth: 0.055
+  actualLineColor: {r: 0.95, g: 0.97, b: 1, a: 1}
+  actualMotionWindowSeconds: 2
+  actualMotionStartDisplacement: 0.9
+  actualMotionStopDisplacement: 0.3
+  actualMotionStopHoldSeconds: 1
+  flattenUsvActualTraceToInitialHeight: 1
+  plannedLineWidth: 0.04
+  plannedLineColor: {r: 0.15, g: 0.85, b: 1, a: 0.65}
+  plannedDashLength: 0.45
+  plannedDashGap: 0.25
+  waypointDiameter: 0.18
+  waypointColor: {r: 0.45, g: 0.9, b: 1, a: 0.9}
+  targetRingDiameter: 0.9
+  targetRingWidth: 0.035
+  targetRingColor: {r: 0.1, g: 0.9, b: 1, a: 0.85}
+  targetColumnHeight: 0.8
+  targetColumnWidth: 0.035
+  targetColumnColor: {r: 0.1, g: 0.9, b: 1, a: 0.85}
+  auvCruiseSpeed: 1.25
+  rovCruiseSpeed: 0.45
+  usvCruiseSpeed: 1.5
+  auvWaypoints:
+  - {x: 0, y: 0, z: 3}
+  - {x: 2, y: 0, z: 6}
+  - {x: 3, y: 0, z: 9}
+  - {x: 0, y: 0, z: 12}
+  rovWaypoints:
+  - {x: 0, y: 0, z: 1}
+  - {x: -0.75, y: 0, z: 2}
+  - {x: -1.5, y: 0, z: 3}
+  usvWaypoints:
+  - {x: 0, y: 0, z: 3}
+  - {x: 3, y: 0, z: 6}
+  - {x: -2, y: 0, z: 10}
+  - {x: 1, y: 0, z: 14}

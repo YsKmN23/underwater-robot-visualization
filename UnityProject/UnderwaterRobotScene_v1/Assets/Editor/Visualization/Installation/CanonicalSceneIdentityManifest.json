@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "canonicalGenerationId": "rov-vertical-batch1-20260813T092134Z-candidate-05d6b051e33671c4",
+  "sceneUnitySha256": "05d6b051e33671c4de6b76e93d7f8f2d3956ba83cf37a17bbcab9163d2801ff8",
+  "sceneByteSize": 2959772,
+  "semanticSha256": "8464305ee94302e0b62d50973f2fb842f560c89b7ddb1cf0235d996ec10a217a",
+  "gameObjectCount": 548,
+  "componentCount": 1571,
+  "missingReferenceCount": 0,
+  "candidateEvidenceId": "candidate-manifest-37d0d925256a9a68a7a3edd724e8125bb88ff47da45915138dbf7e77db660eb0"
+}
