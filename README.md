@@ -8,25 +8,28 @@
 
 ## 建模展示 / Blender 建模成果
 
-项目中的 AUV、ROV 与 USV 均以独立三维模型进入 Unity。下列图片展示当前项目所采用模型的 Blender 视口效果，便于快速了解三类载具的外形、结构和推进器布局。
+项目中的 AUV、ROV 与 USV 均以独立三维模型进入 Unity。下列图片展示当前项目所采用模型的 Blender 视口效果与结构，便于快速了解三类载具的外形和主要构成。
 
-| AUV 建模效果 | ROV 建模效果 | USV 建模效果 |
+### 效果展示
+
+| AUV 效果图 | ROV 效果图 | USV 效果图 |
 | --- | --- | --- |
-| ![AUV Blender 材质视图](docs/images/modeling-auv-material.png) | ![ROV Blender 实体视图](docs/images/modeling-rov-solid.png) | ![USV Blender 材质视图](docs/images/modeling-usv-material.png) |
-| 流线型艇体、尾部推进器及外部传感器布局 | 框架结构、浮力舱和多方向推进器布局 | 双体船体、中央连接结构及尾部推进器布局 |
+| ![AUV Blender 效果图](docs/images/modeling-auv-material.png) | ![ROV Blender 效果图](docs/images/modeling-rov-material.png) | ![USV Blender 效果图](docs/images/modeling-usv-material.png) |
+| 流线型 AUV 艇体、外部部件与尾部推进器效果 | ROV 框架、浮力舱与推进器的材质效果 | USV 双体船体、中央连接结构与尾部推进器效果 |
 
-<details>
-<summary>查看模型的补充材质与线框视图</summary>
+### 结构展示
 
-| AUV 线框视图 | ROV 材质视图 |
-| --- | --- |
-| ![AUV Blender 线框视图](docs/images/modeling-auv-wireframe.png) | ![ROV Blender 材质视图](docs/images/modeling-rov-material.png) |
+![AUV Blender 结构图](docs/images/modeling-auv-wireframe.png)
 
-| ROV 线框视图 | USV 线框视图 |
-| --- | --- |
-| ![ROV Blender 线框视图](docs/images/modeling-rov-wireframe.png) | ![USV Blender 线框视图](docs/images/modeling-usv-wireframe.png) |
+> AUV 线框结构图，展示艇体轮廓、尾部结构以及艇体外侧部件的几何分布。
 
-</details>
+![ROV Blender 结构图](docs/images/modeling-rov-wireframe.png)
+
+> ROV 线框结构图，展示主体框架、浮力舱和多组推进器的几何布局。
+
+![USV Blender 结构图](docs/images/modeling-usv-wireframe.png)
+
+> USV 线框结构图，展示双体船体、中央连接区域和尾部推进结构。
 
 ## 1. 环境要求
 
@@ -256,13 +259,12 @@ Route Editor 只会发布通过校验的 draft。检查 draft 是否包含有效
 ## 9. 项目截图索引
 
 - [Display 1 主三维场景](docs/images/main-scene.jpg)
-- [AUV Blender 材质视图](docs/images/modeling-auv-material.png)
-- [AUV Blender 线框视图](docs/images/modeling-auv-wireframe.png)
-- [ROV Blender 实体视图](docs/images/modeling-rov-solid.png)
-- [ROV Blender 材质视图](docs/images/modeling-rov-material.png)
-- [ROV Blender 线框视图](docs/images/modeling-rov-wireframe.png)
-- [USV Blender 材质视图](docs/images/modeling-usv-material.png)
-- [USV Blender 线框视图](docs/images/modeling-usv-wireframe.png)
+- [AUV Blender 效果图](docs/images/modeling-auv-material.png)
+- [AUV Blender 结构图](docs/images/modeling-auv-wireframe.png)
+- [ROV Blender 效果图](docs/images/modeling-rov-material.png)
+- [ROV Blender 结构图](docs/images/modeling-rov-wireframe.png)
+- [USV Blender 效果图](docs/images/modeling-usv-material.png)
+- [USV Blender 结构图](docs/images/modeling-usv-wireframe.png)
 - [AUV 当前运行演示](docs/images/auv-operation.jpg)
 - [USV 当前运行演示](docs/images/usv-operation.jpg)
 - [ROV 选择与规划轨迹](docs/images/vehicle-selection.jpg)
