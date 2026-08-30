@@ -6,6 +6,28 @@
 
 > Display 1 中的正式三维场景：AUV、ROV 与 USV 位于同一水面/水下环境中。
 
+## 建模展示 / Blender 建模成果
+
+项目中的 AUV、ROV 与 USV 均以独立三维模型进入 Unity。下列图片展示当前项目所采用模型的 Blender 视口效果，便于快速了解三类载具的外形、结构和推进器布局。
+
+| AUV 建模效果 | ROV 建模效果 | USV 建模效果 |
+| --- | --- | --- |
+| ![AUV Blender 材质视图](docs/images/modeling-auv-material.png) | ![ROV Blender 实体视图](docs/images/modeling-rov-solid.png) | ![USV Blender 材质视图](docs/images/modeling-usv-material.png) |
+| 流线型艇体、尾部推进器及外部传感器布局 | 框架结构、浮力舱和多方向推进器布局 | 双体船体、中央连接结构及尾部推进器布局 |
+
+<details>
+<summary>查看模型的补充材质与线框视图</summary>
+
+| AUV 线框视图 | ROV 材质视图 |
+| --- | --- |
+| ![AUV Blender 线框视图](docs/images/modeling-auv-wireframe.png) | ![ROV Blender 材质视图](docs/images/modeling-rov-material.png) |
+
+| ROV 线框视图 | USV 线框视图 |
+| --- | --- |
+| ![ROV Blender 线框视图](docs/images/modeling-rov-wireframe.png) | ![USV Blender 线框视图](docs/images/modeling-usv-wireframe.png) |
+
+</details>
+
 ## 1. 环境要求
 
 - Unity Editor：`6000.5.2f1`
@@ -93,6 +115,13 @@ Display 1 是主要操作界面，显示水面、水下环境、三类机器人�
 | USV | 在水面按水平路线运动并按航向旋转 | 不支持垂向航点编辑 | `1.50 m/s` |
 
 速度值来自当前默认路线配置；运行时以 Route Editor 和 Dashboard 显示的当前路线数据为准。
+
+### 4.3 AUV 与 USV 运行演示
+
+| AUV 三维路线运行 | USV 水面路线运行 |
+| --- | --- |
+| ![AUV 当前运行演示](docs/images/auv-operation.jpg) | ![USV 当前运行演示](docs/images/usv-operation.jpg) |
+| AUV 被选中后沿三维路线运行，可在 Route Editor 中维护包含垂向变化的 waypoint | USV 被选中后沿水面水平路线运行，使用独立的路线和航向控制 |
 
 ## 5. Route Editor 与 waypoint 操作
 
@@ -227,6 +256,15 @@ Route Editor 只会发布通过校验的 draft。检查 draft 是否包含有效
 ## 9. 项目截图索引
 
 - [Display 1 主三维场景](docs/images/main-scene.jpg)
+- [AUV Blender 材质视图](docs/images/modeling-auv-material.png)
+- [AUV Blender 线框视图](docs/images/modeling-auv-wireframe.png)
+- [ROV Blender 实体视图](docs/images/modeling-rov-solid.png)
+- [ROV Blender 材质视图](docs/images/modeling-rov-material.png)
+- [ROV Blender 线框视图](docs/images/modeling-rov-wireframe.png)
+- [USV Blender 材质视图](docs/images/modeling-usv-material.png)
+- [USV Blender 线框视图](docs/images/modeling-usv-wireframe.png)
+- [AUV 当前运行演示](docs/images/auv-operation.jpg)
+- [USV 当前运行演示](docs/images/usv-operation.jpg)
 - [ROV 选择与规划轨迹](docs/images/vehicle-selection.jpg)
 - [Route Editor 编辑模式](docs/images/route-editor.jpg)
 - [Monitoring Dashboard](docs/images/monitoring-dashboard.jpg)
